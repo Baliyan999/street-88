@@ -31,9 +31,6 @@ body{
 .offer{
     background: rgba(0, 0, 0, 0.5);;
     padding: 18px 0;
-    /* height: 59px;
-    display: flex;
-    align-items: center; */
 }
 .offer__content{
     display: flex;
@@ -117,7 +114,6 @@ body{
 
 
 /* main */
-/* begin */
 .begin{
     height: 700px;
     position: relative;
@@ -127,15 +123,6 @@ body{
     align-items: center;
     margin-bottom: 48px;
 }
-/* .begin::before{
-    background: linear-gradient(0deg, rgba(12, 12, 12, 0.72), rgba(12, 12, 12, 0.72));
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-} */
 .begin__text{
     position: relative;
     z-index: 5;
@@ -233,14 +220,11 @@ body{
 }
 .menu__item{
     display: flex;
-    /* position: relative; */
     flex-direction: column;
     background: #0C0C0C;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     padding: 15px 15.63px;
-    /* max-width: 370px;
-    width: 100%; */
 }
 .menu__title{
     font-family: 'Raleway';
@@ -398,14 +382,14 @@ body{
 body{
     background-color: #000;
 }
-.proweb{
+.pro{
     background: #1A3406;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-.proweb__descr{
+.pro__descr{
     font-family: 'Roboto';
     font-weight: normal;
     font-size: 16px;
@@ -456,16 +440,9 @@ body{
     }
 }
 @media (max-width:735px) {
-    /* .header__link:hover{
-        background: none;
-        color: rgba(105, 207, 23, 0.75);
-    } */
     .btn{
         display: flex;
     }
-    /* .navigate{
-        position: relative;
-    } */
 
     .header__list{
         top: 70px;
@@ -487,18 +464,6 @@ body{
     #check:checked ~ .header__list{
         right: 0;
     }
-    /* .header__nav{
-        flex-wrap: wrap;
-    } */
-    /* .header__nav{
-        flex-direction: column;
-        margin-top: 10px;
-    } */
-    
-    /* .header__link{
-        margin: 27px 14px;
-        padding: 0;
-    } */
 }
 @media (max-width:595px) {
     .begin__down{
@@ -519,9 +484,6 @@ body{
         font-size: 40px;
         line-height: 53px;
     }
-    /* .header__link{
-        padding: 15px 7px;
-    } */
     .filial__map iframe{
         height: 350px;
     }
@@ -560,13 +522,7 @@ body{
     }
 }
 @media (max-width:425px) {
-    /* .header__link{
-        font-size: 15px;
-        line-height: 16px;
-    }
-    .menu__list li:first-child .menu__link{
-        margin-right: 16px;
-    } */
+
 }
 @media (max-width:369px) {
     .header__link{
